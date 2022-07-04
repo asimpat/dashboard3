@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    background-image:linear-gradient(to right, rgb(107, 107, 224), rgb(212, 209, 209));
+    
+}
+/* first row starts */
+.box1{
+ 
+    min-height: 50vh;
+    
+}
+
+.list{
+    line-height: 70px;
+    text-align: start;
+    color: white;
+}
+.line {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+/* first row ends */
+
+
+
+/* second box starts */
+.name1{
+    position: relative;
+    right: 30%;
+    
+}
+.ico{
+    font-size: 25px;
+}
+.off{
+    font-size: 13px;
+    font-weight: 300;
+}
+.line1 {
+    background-color: rgb(158, 157, 157);
+    height: 1px;
+    width: 100%;
+}
+/* second box ends */
+
+
+
+/* third box starts */
+.nam{
+    font-weight: 700;
+}
+.icon{
+    font-size: 30px;
+}
+
+.word p{
+    line-height: 17px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/* third box ends */
+
+
+
+/* fourth box starts */
+.elli{
+    margin-top: 14px;
+    
+}
+/* fourth box ends */
+@media (max-width:1199px) {
+    .box3{
+        margin-bottom: 10px
+    }
+}
+@media (max-width:991px) {
+    .box4{
+        margin-bottom: 20px;
+    }
+    .box5{
+        margin-bottom: 20px;
+    }
+    .box6{
+        margin-bottom: 20px;
+    }
+}
